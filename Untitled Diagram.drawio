@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-17T15:44:04.225Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="9YJyLSI4NCo_awe0UVfA" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-17T15:45:33.295Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="eHWZOjMDf_6N0ULszjxg" version="24.0.4" type="github">
   <diagram name="Page-1" id="QXQrOLrh2TxL8ZML69AA">
     <mxGraphModel dx="2084" dy="1682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -117,6 +117,38 @@
         </mxCell>
         <mxCell id="E8B6rwo0TzkrYEJieWMp-67" value="Frontend Firewall" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="197" y="-113" width="113" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E8B6rwo0TzkrYEJieWMp-68" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Load_Balancer_feature.svg;" vertex="1" parent="1">
+          <mxGeometry x="41" y="573" width="45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E8B6rwo0TzkrYEJieWMp-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-64" y="475" as="sourcePoint" />
+            <mxPoint x="-64" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8B6rwo0TzkrYEJieWMp-70" value="" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="155" y="463" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E8B6rwo0TzkrYEJieWMp-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.56;entryY=-0.03;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="E8B6rwo0TzkrYEJieWMp-70" target="E8B6rwo0TzkrYEJieWMp-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="523" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8B6rwo0TzkrYEJieWMp-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.4;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="E8B6rwo0TzkrYEJieWMp-70" target="E8B6rwo0TzkrYEJieWMp-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="573" as="targetPoint" />
+            <mxPoint x="235" y="523" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8B6rwo0TzkrYEJieWMp-73" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Load_Balancer_feature.svg;" vertex="1" parent="1">
+          <mxGeometry x="265" y="573" width="45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E8B6rwo0TzkrYEJieWMp-74" value="Backend Firewall" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="123.5" y="520" width="113" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E8B6rwo0TzkrYEJieWMp-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E8B6rwo0TzkrYEJieWMp-24" target="E8B6rwo0TzkrYEJieWMp-70">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
